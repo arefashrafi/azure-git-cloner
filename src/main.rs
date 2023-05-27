@@ -10,7 +10,7 @@ use git2::Repository;
 #[command(author, version, about, long_about = None)]
 struct Args {
     /// Name of the person to greet
-    #[arg(short, long)]
+    #[arg(long)]
     pat: String,
 
     #[arg(short, long)]
